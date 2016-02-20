@@ -1,0 +1,24 @@
+{
+  "name": "DataDashboard",
+  "version": "0.1.0",
+  "description": "Data dashboard of various sources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsmccc/data-dashboard"
+  },
+  "keywords": [
+    "data",
+    "analytics",
+    "dashboard"
+  ],
+  "author": "Riley S. McCloskey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsmccc/data-dashboard/issues"
+  },
+  "homepage": "https://github.com/rsmccc/data-dashboard"
+}
