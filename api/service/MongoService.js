@@ -5,7 +5,7 @@ if (Mongo != undefined) {
 }
 
 
-function mongoNative() {
+var mongoNative: function() {
 	db = connect("rsmccloskey.me:27017/data", "tkeapp", "1Inspired!");
 	// var c = db.members.find();
 	// while (c.hasNext()) {
@@ -34,8 +34,6 @@ function mongoNative() {
 	printjson(interact);
 
 	var stats = interact.retval;
-
-	
 }
 
 
