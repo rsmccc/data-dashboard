@@ -23,6 +23,7 @@
   "homepage": "https://github.com/rsmccc/data-dashboard",
   "dependencies": {
     "d3": "^3.5.16",
+    "http": "0.0.0",
     "requirejs": "^2.1.22"
   }
 }
