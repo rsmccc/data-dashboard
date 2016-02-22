@@ -2,7 +2,7 @@
   "name": "DataDashboard",
   "version": "0.1.0",
   "description": "Data dashboard of various sources.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/rsmccc/data-dashboard/issues"
   },
-  "homepage": "https://github.com/rsmccc/data-dashboard"
+  "homepage": "https://github.com/rsmccc/data-dashboard",
+  "dependencies": {
+    "d3": "^3.5.16",
+    "requirejs": "^2.1.22"
+  }
 }
