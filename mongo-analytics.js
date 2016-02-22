@@ -1,8 +1,8 @@
 // DataService.js
 
 
-// conn = new Mongo("rsmccloskey.me:27017/data");
-db = connect("rsmccloskey.me:27017/data", "tkeapp", "1Inspired!");
+// conn = new Mongo("host:port/collection");
+db = connect("host:port/data", "tkeapp", "1Inspired!");
 // db.auth({})
 
 //initial config
