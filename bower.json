@@ -1,0 +1,29 @@
+{
+  "name": "DataDashboard",
+  "description": "Data dashboard of various sources.",
+  "main": "app.js",
+  "authors": [
+    "Riley S. McCloskey"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "data",
+    "analytics",
+    "dashboard"
+  ],
+  "homepage": "https://github.com/rsmccc/data-dashboard",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3-tip": "~0.6.7"
+  }
+}
