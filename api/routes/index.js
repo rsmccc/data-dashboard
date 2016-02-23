@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var mserv = require('../service/MongoService');
+var mongo = require('../service/MongoService');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -12,7 +12,7 @@ router.get('/chart', function(req, res, next) {
 });
 
 router.get('/mongo', function(req, res, next) {
-	res.send(mserv.conns(mserv.inters));
+	mongo.oneWayInteractions(res.send);
 })
 
 module.exports = router;
